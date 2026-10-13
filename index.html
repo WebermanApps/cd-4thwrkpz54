@@ -61,4 +61,5 @@ b.onclick=async()=>{const url=location.href.split('#')[0];const title=document.t
  try{await navigator.clipboard.writeText(text+' '+url)}catch(e){const t=document.createElement('textarea');t.value=text+' '+url;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
  msg.style.display='inline-block';setTimeout(()=>msg.style.display='none',1800)}})();
 </script>
+<script src="ptr.js" defer></script>
 </body></html>
