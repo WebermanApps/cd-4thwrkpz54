@@ -1,395 +1,767 @@
 {
-"categories": {
-"hv": "Hidden Valley Close-out",
-"walk": "Site Walk & Punch",
-"docs": "Warranties & Docs",
-"bids": "Bids & Business",
-"dash": "Dashboard Deck"
-},
-"cards": [
-{
-"id": "hv-1",
-"cat": "hv",
-"q": "Email to the homeowner about the registered warranties and Home Guide notes: how do you want it?",
-"opts": [
-"I'll send it today",
-"Draft it for me first",
-"Hold it until close-out is done"
-],
-"src": "Decisions You Owe"
-},
-{
-"id": "hv-2",
-"cat": "hv",
-"q": "Talk to Pete about the IT rack, Sonos account and warranties: how?",
-"opts": [
-"I'll call him this week",
-"I'll message him",
-"Draft a note for me",
-"Skip for now"
-],
-"src": "Decisions You Owe"
-},
-{
-"id": "hv-3",
-"cat": "hv",
-"q": "Your four waivers (construction management, reimbursement, professional services, labor): when should I prep them?",
-"opts": [
-"Prep them now",
-"After the final walk",
-"Not needed"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "hv-4",
-"cat": "hv",
-"q": "Talk to your dad about punch list items (like Butch's hot water): how?",
-"opts": [
-"I'll call him",
-"Prep a list for me first",
-"Already done"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "hv-5",
-"cat": "hv",
-"q": "Final double-check of the job: what should it cover first?",
-"opts": [
-"Money and payments",
-"Site and punch list",
-"Warranties and documents",
-"All of it in one pass"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "hv-6",
-"cat": "hv",
-"q": "Payment sources check (old Amex, Venmo, Zelle, Chase, Amazon against QuickBooks): who does it?",
-"opts": [
-"Construction makes a checklist",
-"Folio checks it",
-"I'll do it myself"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "hv-7",
-"cat": "hv",
-"q": "Utilities switch-over to the owners: where does it stand?",
-"opts": [
-"Done",
-"Still needed",
-"Not sure, please check"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-1",
-"cat": "walk",
-"q": "Water Heater 1 serial photo for the site walk: who gets it?",
-"opts": [
-"Ethan on the next walk",
-"I'll ask the owner",
-"Skip it, both heaters are registered"
-],
-"src": "Site walk open items"
-},
-{
-"id": "walk-2",
-"cat": "walk",
-"q": "Roof leak above the kitchen ceiling: what next?",
-"opts": [
-"Keep monitoring",
-"Send the roofer",
-"Ask the owner if it still leaks"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-3",
-"cat": "walk",
-"q": "Backup sump and Moen water shutoff: still to install?",
-"opts": [
-"Yes, schedule it",
-"Already done",
-"Drop it"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-4",
-"cat": "walk",
-"q": "Gutter melts on the metal roof by the window (already prepped): when?",
-"opts": [
-"Before winter",
-"Next spring",
-"Drop it"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-5",
-"cat": "walk",
-"q": "Attic inspection and garage ceiling insulation: one visit or two?",
-"opts": [
-"One visit",
-"Separate visits",
-"Already done"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-6",
-"cat": "walk",
-"q": "Small punch items (master bath bidet, mud the master hallway, even the front shingles, cut the gym floor pipes): how to handle them?",
-"opts": [
-"One punch day, one crew",
-"Split them by trade",
-"Some are done, I'll note which"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "walk-7",
-"cat": "walk",
-"q": "Walk-out insulation: who confirms it?",
-"opts": [
-"Ethan on the walk",
-"The insulation sub",
-"Already confirmed"
-],
-"src": "Close-out tracker"
-},
-{
-"id": "docs-1",
-"cat": "docs",
-"q": "Superior Walls warranty certificate: no reply from Great Lakes Walls since Oct 11. Next step?",
-"opts": [
-"Follow up by email",
-"Call them",
-"Wait another week"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-2",
-"cat": "docs",
-"q": "Bryant HVAC registration (due Nov 5) needs the outdoor AC models and serials. How do we get them?",
-"opts": [
-"Ethan's site walk",
-"Ask the HVAC installer",
-"I'll get them"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-3",
-"cat": "docs",
-"q": "Seven Clopay garage door numbers for warranty registration: who collects them?",
-"opts": [
-"Ethan on the walk",
-"Ask the garage door installer",
-"Skip this registration"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-4",
-"cat": "docs",
-"q": "Pella warranty transfer to the owners: how?",
-"opts": [
-"Construction emails Pella",
-"I'll call Pella",
-"The owners handle it"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-5",
-"cat": "docs",
-"q": "Flat roof: the workmanship letter, membrane brand and warranty number are still missing. Who do we ask?",
-"opts": [
-"The flat roof contractor",
-"I'll find them",
-"Mark it To Be Confirmed"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-6",
-"cat": "docs",
-"q": "Pentair pool equipment: the 60-day clock starts at install. Who confirms the install date?",
-"opts": [
-"The pool installer",
-"The owner",
-"I'll note it myself"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-7",
-"cat": "docs",
-"q": "Napoleon fireplace registration rules: research them now?",
-"opts": [
-"Yes, now",
-"After the HVAC is done",
-"The owners handle it"
-],
-"src": "Open Items"
-},
-{
-"id": "docs-8",
-"cat": "docs",
-"q": "Builder license check: the state lookup site was down on Oct 14. What next?",
-"opts": [
-"Keep the Monday check running",
-"I'll check it myself",
-"Call the state office"
-],
-"src": "License watch"
-},
-{
-"id": "docs-9",
-"cat": "docs",
-"q": "Your personal builder license number isn't on file. Can you add it?",
-"opts": [
-"I'll add it in a note",
-"Look it up when the site is back",
-"Not sure I have one"
-],
-"src": "License watch"
-},
-{
-"id": "bids-1",
-"cat": "bids",
-"q": "Agnes Restaurant: the internal estimate came in well above the July proposal. What do you want?",
-"opts": [
-"Walk me through the gap",
-"Keep the July proposal as is",
-"Revise the proposal"
-],
-"src": "Agnes bid notes"
-},
-{
-"id": "bids-2",
-"cat": "bids",
-"q": "Agnes Restaurant: the owner's decision is expected mid-October. Follow up?",
-"opts": [
-"Wait for him",
-"Nudge him this week",
-"Draft a follow-up for me"
-],
-"src": "Agnes bid notes"
-},
-{
-"id": "bids-3",
-"cat": "bids",
-"q": "Agnes Restaurant: if we win it, keep the January 2027 start and June 1 opening target?",
-"opts": [
-"Yes, keep both",
-"Push the start later",
-"Decide after award"
-],
-"src": "Agnes bid notes"
-},
-{
-"id": "bids-4",
-"cat": "bids",
-"q": "webermanconstruction.com: point it at maxweberman.com?",
-"opts": [
-"Yes, redirect it",
-"Keep it a separate site",
-"Later"
-],
-"src": "Web tasks"
-},
-{
-"id": "bids-5",
-"cat": "bids",
-"q": "Vultr hosting (still billed monthly): what should happen?",
-"opts": [
-"Cancel it",
-"Keep it for now",
-"Check what's on it first"
-],
-"src": "Web tasks"
-},
-{
-"id": "bids-6",
-"cat": "bids",
-"q": "Website updates and new blog posts: who does them?",
-"opts": [
-"Ask Lenny",
-"Blog agent",
-"Construction drafts the content"
-],
-"src": "Web tasks"
-},
-{
-"id": "dash-1",
-"cat": "dash",
-"q": "Close-out Step Timeline: show every step or only the open ones?",
-"opts": [
-"Every step, done ones checked",
-"Only open steps"
-],
-"src": "Dashboard"
-},
-{
-"id": "dash-2",
-"cat": "dash",
-"q": "Apps in two groups: which group goes first?",
-"opts": [
-"Live apps (Home Guide, Site Walk)",
-"Finish decks and quizzes"
-],
-"src": "Dashboard"
-},
-{
-"id": "dash-3",
-"cat": "dash",
-"q": "Open Items list: default order?",
-"opts": [
-"By due date",
-"A to Z",
-"By trade"
-],
-"src": "Dashboard"
-},
-{
-"id": "dash-4",
-"cat": "dash",
-"q": "Number tiles near the top: keep all five?",
-"opts": [
-"Keep all five",
-"Only hours and next deadline",
-"Drop them"
-],
-"src": "Dashboard"
-},
-{
-"id": "dash-5",
-"cat": "dash",
-"q": "Recent Work: how many to show before See All?",
-"opts": [
-"5",
-"7",
-"10"
-],
-"src": "Dashboard"
-},
-{
-"id": "dash-6",
-"cat": "dash",
-"q": "Agnes Restaurant bid: give it its own section on the dashboard?",
-"opts": [
-"Yes, its own section",
-"Keep it in Open Items"
-],
-"src": "Dashboard"
-}
-]
+ "categories": {
+  "hv": "Hidden Valley Close-out",
+  "walk": "Site Walk & Punch",
+  "docs": "Warranties & Docs",
+  "bids": "Bids & Business",
+  "dash": "Dashboard Deck",
+  "fin": "Finish Questions",
+  "mech": "Mechanical & Shutoffs"
+ },
+ "cards": [
+  {
+   "id": "hv-1",
+   "cat": "hv",
+   "q": "Email to the homeowner about the registered warranties and Home Guide notes: how do you want it?",
+   "opts": [
+    "I'll send it today",
+    "Draft it for me first",
+    "Hold it until close-out is done"
+   ],
+   "src": "Decisions You Owe"
+  },
+  {
+   "id": "hv-2",
+   "cat": "hv",
+   "q": "Talk to Pete about the IT rack, Sonos account and warranties: how?",
+   "opts": [
+    "I'll call him this week",
+    "I'll message him",
+    "Draft a note for me",
+    "Skip for now"
+   ],
+   "src": "Decisions You Owe"
+  },
+  {
+   "id": "hv-3",
+   "cat": "hv",
+   "q": "Your four waivers (construction management, reimbursement, professional services, labor): when should I prep them?",
+   "opts": [
+    "Prep them now",
+    "After the final walk",
+    "Not needed"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "hv-4",
+   "cat": "hv",
+   "q": "Talk to your dad about punch list items (like Butch's hot water): how?",
+   "opts": [
+    "I'll call him",
+    "Prep a list for me first",
+    "Already done"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "hv-5",
+   "cat": "hv",
+   "q": "Final double-check of the job: what should it cover first?",
+   "opts": [
+    "Money and payments",
+    "Site and punch list",
+    "Warranties and documents",
+    "All of it in one pass"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "hv-6",
+   "cat": "hv",
+   "q": "Payment sources check (old Amex, Venmo, Zelle, Chase, Amazon against QuickBooks): who does it?",
+   "opts": [
+    "Construction makes a checklist",
+    "Folio checks it",
+    "I'll do it myself"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "hv-7",
+   "cat": "hv",
+   "q": "Utilities switch-over to the owners: where does it stand?",
+   "opts": [
+    "Done",
+    "Still needed",
+    "Not sure, please check"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-1",
+   "cat": "walk",
+   "q": "Water Heater 1 serial photo for the site walk: who gets it?",
+   "opts": [
+    "Ethan on the next walk",
+    "I'll ask the owner",
+    "Skip it, both heaters are registered"
+   ],
+   "src": "Site walk open items"
+  },
+  {
+   "id": "walk-2",
+   "cat": "walk",
+   "q": "Roof leak above the kitchen ceiling: what next?",
+   "opts": [
+    "Keep monitoring",
+    "Send the roofer",
+    "Ask the owner if it still leaks"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-3",
+   "cat": "walk",
+   "q": "Backup sump and Moen water shutoff: still to install?",
+   "opts": [
+    "Yes, schedule it",
+    "Already done",
+    "Drop it"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-4",
+   "cat": "walk",
+   "q": "Gutter melts on the metal roof by the window (already prepped): when?",
+   "opts": [
+    "Before winter",
+    "Next spring",
+    "Drop it"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-5",
+   "cat": "walk",
+   "q": "Attic inspection and garage ceiling insulation: one visit or two?",
+   "opts": [
+    "One visit",
+    "Separate visits",
+    "Already done"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-6",
+   "cat": "walk",
+   "q": "Small punch items (master bath bidet, mud the master hallway, even the front shingles, cut the gym floor pipes): how to handle them?",
+   "opts": [
+    "One punch day, one crew",
+    "Split them by trade",
+    "Some are done, I'll note which"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "walk-7",
+   "cat": "walk",
+   "q": "Walk-out insulation: who confirms it?",
+   "opts": [
+    "Ethan on the walk",
+    "The insulation sub",
+    "Already confirmed"
+   ],
+   "src": "Close-out tracker"
+  },
+  {
+   "id": "docs-1",
+   "cat": "docs",
+   "q": "Superior Walls warranty certificate: no reply from Great Lakes Walls since Oct 11. Next step?",
+   "opts": [
+    "Follow up by email",
+    "Call them",
+    "Wait another week"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-2",
+   "cat": "docs",
+   "q": "Bryant HVAC registration (due Nov 5) needs the outdoor AC models and serials. How do we get them?",
+   "opts": [
+    "Ethan's site walk",
+    "Ask the HVAC installer",
+    "I'll get them"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-3",
+   "cat": "docs",
+   "q": "Seven Clopay garage door numbers for warranty registration: who collects them?",
+   "opts": [
+    "Ethan on the walk",
+    "Ask the garage door installer",
+    "Skip this registration"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-4",
+   "cat": "docs",
+   "q": "Pella warranty transfer to the owners: how?",
+   "opts": [
+    "Construction emails Pella",
+    "I'll call Pella",
+    "The owners handle it"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-5",
+   "cat": "docs",
+   "q": "Flat roof: the workmanship letter, membrane brand and warranty number are still missing. Who do we ask?",
+   "opts": [
+    "The flat roof contractor",
+    "I'll find them",
+    "Mark it To Be Confirmed"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-6",
+   "cat": "docs",
+   "q": "Pentair pool equipment: the 60-day clock starts at install. Who confirms the install date?",
+   "opts": [
+    "The pool installer",
+    "The owner",
+    "I'll note it myself"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-7",
+   "cat": "docs",
+   "q": "Napoleon fireplace registration rules: research them now?",
+   "opts": [
+    "Yes, now",
+    "After the HVAC is done",
+    "The owners handle it"
+   ],
+   "src": "Open Items"
+  },
+  {
+   "id": "docs-8",
+   "cat": "docs",
+   "q": "Builder license check: the state lookup site was down on Oct 14. What next?",
+   "opts": [
+    "Keep the Monday check running",
+    "I'll check it myself",
+    "Call the state office"
+   ],
+   "src": "License watch"
+  },
+  {
+   "id": "docs-9",
+   "cat": "docs",
+   "q": "Your personal builder license number isn't on file. Can you add it?",
+   "opts": [
+    "I'll add it in a note",
+    "Look it up when the site is back",
+    "Not sure I have one"
+   ],
+   "src": "License watch"
+  },
+  {
+   "id": "bids-1",
+   "cat": "bids",
+   "q": "Agnes Restaurant: the internal estimate came in well above the July proposal. What do you want?",
+   "opts": [
+    "Walk me through the gap",
+    "Keep the July proposal as is",
+    "Revise the proposal"
+   ],
+   "src": "Agnes bid notes"
+  },
+  {
+   "id": "bids-2",
+   "cat": "bids",
+   "q": "Agnes Restaurant: the owner's decision is expected mid-October. Follow up?",
+   "opts": [
+    "Wait for him",
+    "Nudge him this week",
+    "Draft a follow-up for me"
+   ],
+   "src": "Agnes bid notes"
+  },
+  {
+   "id": "bids-3",
+   "cat": "bids",
+   "q": "Agnes Restaurant: if we win it, keep the January 2027 start and June 1 opening target?",
+   "opts": [
+    "Yes, keep both",
+    "Push the start later",
+    "Decide after award"
+   ],
+   "src": "Agnes bid notes"
+  },
+  {
+   "id": "bids-4",
+   "cat": "bids",
+   "q": "webermanconstruction.com: point it at maxweberman.com?",
+   "opts": [
+    "Yes, redirect it",
+    "Keep it a separate site",
+    "Later"
+   ],
+   "src": "Web tasks"
+  },
+  {
+   "id": "bids-5",
+   "cat": "bids",
+   "q": "Vultr hosting (still billed monthly): what should happen?",
+   "opts": [
+    "Cancel it",
+    "Keep it for now",
+    "Check what's on it first"
+   ],
+   "src": "Web tasks"
+  },
+  {
+   "id": "bids-6",
+   "cat": "bids",
+   "q": "Website updates and new blog posts: who does them?",
+   "opts": [
+    "Ask Lenny",
+    "Blog agent",
+    "Construction drafts the content"
+   ],
+   "src": "Web tasks"
+  },
+  {
+   "id": "dash-1",
+   "cat": "dash",
+   "q": "Close-out Step Timeline: show every step or only the open ones?",
+   "opts": [
+    "Every step, done ones checked",
+    "Only open steps"
+   ],
+   "src": "Dashboard"
+  },
+  {
+   "id": "dash-3",
+   "cat": "dash",
+   "q": "Open Items list: default order?",
+   "opts": [
+    "By due date",
+    "A to Z",
+    "By trade"
+   ],
+   "src": "Dashboard"
+  },
+  {
+   "id": "dash-4",
+   "cat": "dash",
+   "q": "Number tiles near the top: keep all five?",
+   "opts": [
+    "Keep all five",
+    "Only hours and next deadline",
+    "Drop them"
+   ],
+   "src": "Dashboard"
+  },
+  {
+   "id": "dash-5",
+   "cat": "dash",
+   "q": "Recent Work: how many to show before See All?",
+   "opts": [
+    "5",
+    "7",
+    "10"
+   ],
+   "src": "Dashboard"
+  },
+  {
+   "id": "dash-6",
+   "cat": "dash",
+   "q": "Agnes Restaurant bid: give it its own section on the dashboard?",
+   "opts": [
+    "Yes, its own section",
+    "Keep it in Open Items"
+   ],
+   "src": "Dashboard"
+  },
+  {
+   "id": "fq-foyer-chand4",
+   "cat": "fin",
+   "q": "Foyer 110: Which sizes are the 4 Entice chandeliers? Same size as the others?",
+   "opts": [
+    "Same size as the others",
+    "186\"",
+    "122\"",
+    "93\"",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-border5",
+   "cat": "fin",
+   "q": "What is the foyer border tile?",
+   "opts": [
+    "Jem Aria Gold after all",
+    "Cala Vi. Calacatta 24x24",
+    "Different marble (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-vest5",
+   "cat": "fin",
+   "q": "Is the Vestibule 123 floor the same tile as the foyer border?",
+   "opts": [
+    "Yes, same tile",
+    "No, different (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-family-room",
+   "cat": "fin",
+   "q": "Living Room 121: Which room number is the family room with the see-through fireplace?",
+   "opts": [
+    "Living Room 121",
+    "Great Room 112",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-axis",
+   "cat": "fin",
+   "q": "Is the Axis linear pendant over the dining table?",
+   "opts": [
+    "Yes, Dining Room 118",
+    "No, kitchen eating area",
+    "Other (type in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-liaison",
+   "cat": "fin",
+   "q": "Dining Room 118: Where are the 2 Liaison double sconces?",
+   "opts": [
+    "Dining Room 118",
+    "Kitchen 117",
+    "Other (type in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-k-lights5",
+   "cat": "fin",
+   "q": "Kitchen 117: Island lights: 6 Dighton, as you said, or Najwa's Ebell?",
+   "opts": [
+    "6 Dighton (short 7.5\" cylinders)",
+    "6 Ebell (24\" tubes), Najwa",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-valdesign",
+   "cat": "fin",
+   "q": "Where is the \"Valdesign: Kitchen\" cabinetry?",
+   "opts": [
+    "Main Kitchen 117",
+    "Lower-Level Kitchen 004",
+    "Both"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-116-floor5",
+   "cat": "fin",
+   "q": "Mud room floor: Calacatta tile or hardwood?",
+   "opts": [
+    "Cala Vi. Calacatta 24x24 (Najwa)",
+    "Hardwood (as in video)",
+    "Both (add the split in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-115-counter",
+   "cat": "fin",
+   "q": "Half Bath 115: Vanity top here?",
+   "opts": [
+    "Silaro quartz",
+    "Mystery White marble",
+    "Makalu Brushed granite",
+    "Integrated sink top"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-102-floor5",
+   "cat": "fin",
+   "q": "Primary bath floor?",
+   "opts": [
+    "Aquarius White 6x24 herringbone (Najwa)",
+    "Carmen quartz slabs",
+    "Other large gray tile (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-102-shower5",
+   "cat": "fin",
+   "q": "Primary shower back wall?",
+   "opts": [
+    "Jem Aria Gold bookmatch slabs (Najwa)",
+    "Carmen quartz",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-204-walls5",
+   "cat": "fin",
+   "q": "Bathroom 204: Bath 204 shower walls: Najwa's onyx slab or what the video shows?",
+   "opts": [
+    "Onice Alabastrino slab (Najwa)",
+    "Gray-white marble-look porcelain (as in video)",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-paint-205",
+   "cat": "fin",
+   "q": "Hall 205 wall color: Gossamer Veil or Dover White?",
+   "opts": [
+    "SW 9165 Gossamer Veil",
+    "SW 6385 Dover White",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-paint-201",
+   "cat": "fin",
+   "q": "Bedroom 201 (Natia) wall color?",
+   "opts": [
+    "Blush / pink (name in Notes)",
+    "SW 6385 Dover White",
+    "SW 9165 Gossamer Veil",
+    "SW 7029 Agreeable Gray",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-bsmt-sconces",
+   "cat": "fin",
+   "q": "Living Area 004: What sconces are in the basement?",
+   "opts": [
+    "No sconces installed",
+    "Same style, different model",
+    "Different sconce (type in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-paint-bunk",
+   "cat": "fin",
+   "q": "Is the bunk room Family Suite 002 (SW 7019 Gauntlet Gray)?",
+   "opts": [
+    "Yes, Family Suite 002",
+    "No, another room (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-f1-room",
+   "cat": "mech",
+   "q": "Furnace 1 (basement furnace, \"just outside the mechanical room\"): which room?",
+   "opts": [
+    "Mechanical 010",
+    "Storage 009",
+    "Hall outside 010",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-f2-room",
+   "cat": "mech",
+   "q": "Furnace 2 (main level, \"next to sump pump 2\"): which room?",
+   "opts": [
+    "Mechanical 010",
+    "Storage 009",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-sump2-room",
+   "cat": "mech",
+   "q": "Sump Pump 2: which room?",
+   "opts": [
+    "Mechanical 010",
+    "Storage 009",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-f3-room",
+   "cat": "mech",
+   "q": "Furnace 3 (upper level): which room or closet?",
+   "opts": [
+    "Attic",
+    "Closet off Laundry 203",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-water-main",
+   "cat": "mech",
+   "q": "Which handle is the main water shutoff?",
+   "opts": [
+    "In Mechanical 010, where the line enters",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-gas-meter",
+   "cat": "mech",
+   "q": "Where is the gas meter?",
+   "opts": [
+    "Left side",
+    "Right side",
+    "Back",
+    "Front",
+    "Other (add in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-garage-color",
+   "cat": "fin",
+   "q": "Garage door color: Almond?",
+   "opts": [
+    "Yes, Almond",
+    "No, White",
+    "Other (type in Notes)"
+   ],
+   "src": "Finish Questions, round 5"
+  },
+  {
+   "id": "fq-k-sink",
+   "cat": "fin",
+   "q": "Which sink is in the main kitchen?",
+   "opts": [
+    "Blanco Diamond, Volcano Gray",
+    "Different sink (type in Notes)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-pulls",
+   "cat": "fin",
+   "q": "What pulls are on the kitchen cabinets?",
+   "opts": [
+    "Bar pulls, brushed nickel/stainless",
+    "Bar pulls, brass",
+    "Built-in handle, no pulls",
+    "Other (type in Notes)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-p-sink",
+   "cat": "fin",
+   "q": "Which sink is in the pantry?",
+   "opts": [
+    "Blanco Diamond, Volcano Gray",
+    "Blanco Precis",
+    "Different sink (type in Notes)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-115-floor",
+   "cat": "fin",
+   "q": "Half Bath 115: Floor in this bath?",
+   "opts": [
+    "Cala Vi. Calacatta 24x24",
+    "Hardwood",
+    "Other tile (type in Notes)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-204-slab",
+   "cat": "fin",
+   "q": "Bathroom 204: Shower wall slab material?",
+   "opts": [
+    "Carrara Fina quartz",
+    "Calacatta Vivo quartz",
+    "Mystery White marble",
+    "Porcelain slab"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-204-penny",
+   "cat": "fin",
+   "q": "Bathroom 204: Penny tile on shower floor and main floor?",
+   "opts": [
+    "Carrara Catalina 1\" penny",
+    "Aquarius White penny",
+    "White penny (unknown brand)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-calacatta-rooms",
+   "cat": "fin",
+   "q": "Laundry 203: Where did the 465 SF of Calacatta 24x24 go?",
+   "opts": [
+    "Laundry 203",
+    "Mud Room 116",
+    "Half Bath 115",
+    "Lower-Level Laundry"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-004-sink",
+   "cat": "fin",
+   "q": "Living Area 004: Lower-level kitchen sink?",
+   "opts": [
+    "Blanco Precis 443121",
+    "Blanco 443108",
+    "Other (type in Notes)"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-005-shower",
+   "cat": "fin",
+   "q": "Bathroom 005: Is the shower tile Calacatta Esagona mosaic?",
+   "opts": [
+    "Yes, Bathroom 005",
+    "No, Locker Room 013",
+    "Other"
+   ],
+   "src": "Finish Questions, round 4"
+  },
+  {
+   "id": "fq-gym-rubber",
+   "cat": "fin",
+   "q": "Rubber gym floor: brand, product and thickness?",
+   "opts": [
+    "Don't know - ask ProSource",
+    "Type it in Notes"
+   ],
+   "src": "Finish Questions, round 4"
+  }
+ ]
 }

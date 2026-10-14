@@ -1,0 +1,49 @@
+{
+ "agent": "construction",
+ "updated": "2026-10-14T20:02:15+07:00",
+ "decks": [
+  {
+   "id": "construction-closeout-calls",
+   "name": "Close-out Calls Deck",
+   "url": "deck/?cats=hv,walk,bids&name=Close-out%20Calls%20Deck",
+   "total": 20,
+   "topic": "construction-closeout",
+   "tag": "Close-out",
+   "added": "2026-10-14T19:58:15+07:00",
+   "blurb": "Hidden Valley close-out, site walk and punch, bids"
+  },
+  {
+   "id": "construction-finish-questions",
+   "name": "Finish Questions Deck",
+   "url": "deck/?cats=fin&name=Finish%20Questions%20Deck",
+   "total": 20,
+   "topic": "construction-finishes",
+   "tag": "Finishes",
+   "added": "2026-10-14T19:59:15+07:00",
+   "blurb": "Open finish, fixture and tile calls"
+  },
+  {
+   "id": "construction-warranties-docs",
+   "name": "Warranties & Docs Deck",
+   "url": "deck/?cats=docs,mech,dash&name=Warranties%20%26%20Docs%20Deck",
+   "total": 20,
+   "topic": "construction-docs",
+   "tag": "Warranties",
+   "added": "2026-10-14T20:00:15+07:00",
+   "blurb": "Registrations, licenses, shutoff locations, dashboard"
+  },
+  {
+   "id": "construction-bid-and-schedule-screens-deck",
+   "name": "Bid And Schedule Screens Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-bid-and-schedule-screens-deck-au46mv/",
+   "total": 20,
+   "topic": "construction",
+   "source": "/workspace/ops/construction/dashboard/bank-bids-schedule.json",
+   "added": "2026-10-14T20:01:49+07:00",
+   "tag": "Bids",
+   "blurb": "20 cards, ready now"
+  }
+ ],
+ "pinned": [],
+ "done": []
+}
