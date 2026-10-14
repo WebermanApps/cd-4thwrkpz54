@@ -1,0 +1,43 @@
+{
+ "agent": "construction",
+ "categories": [
+  {
+   "id": "hv",
+   "label": "Hidden Valley Close-out",
+   "blurb": "Hand-off, waivers, payments, owner email"
+  },
+  {
+   "id": "walk",
+   "label": "Site Walk & Punch",
+   "blurb": "Serial photos, roof, sump, punch items"
+  },
+  {
+   "id": "docs",
+   "label": "Warranties & Docs",
+   "blurb": "Registrations, certificates, licenses"
+  },
+  {
+   "id": "bids",
+   "label": "Bids & Business",
+   "blurb": "Agnes Restaurant, website, hosting"
+  },
+  {
+   "id": "dash",
+   "label": "Dashboard Deck",
+   "blurb": "How this dashboard looks and sorts"
+  }
+ ],
+ "unfinished": [],
+ "ready": {
+  "name": "Close-out Calls Deck",
+  "url": "deck/?cats=hv,walk,docs,bids,dash&name=Close-out%20Calls%20Deck",
+  "total": 20,
+  "categories": [
+   "Hidden Valley Close-out",
+   "Site Walk & Punch",
+   "Warranties & Docs",
+   "Bids & Business",
+   "Dashboard Deck"
+  ]
+ }
+}

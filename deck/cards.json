@@ -1,0 +1,395 @@
+{
+"categories": {
+"hv": "Hidden Valley Close-out",
+"walk": "Site Walk & Punch",
+"docs": "Warranties & Docs",
+"bids": "Bids & Business",
+"dash": "Dashboard Deck"
+},
+"cards": [
+{
+"id": "hv-1",
+"cat": "hv",
+"q": "Email to the homeowner about the registered warranties and Home Guide notes: how do you want it?",
+"opts": [
+"I'll send it today",
+"Draft it for me first",
+"Hold it until close-out is done"
+],
+"src": "Decisions You Owe"
+},
+{
+"id": "hv-2",
+"cat": "hv",
+"q": "Talk to Pete about the IT rack, Sonos account and warranties: how?",
+"opts": [
+"I'll call him this week",
+"I'll message him",
+"Draft a note for me",
+"Skip for now"
+],
+"src": "Decisions You Owe"
+},
+{
+"id": "hv-3",
+"cat": "hv",
+"q": "Your four waivers (construction management, reimbursement, professional services, labor): when should I prep them?",
+"opts": [
+"Prep them now",
+"After the final walk",
+"Not needed"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "hv-4",
+"cat": "hv",
+"q": "Talk to your dad about punch list items (like Butch's hot water): how?",
+"opts": [
+"I'll call him",
+"Prep a list for me first",
+"Already done"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "hv-5",
+"cat": "hv",
+"q": "Final double-check of the job: what should it cover first?",
+"opts": [
+"Money and payments",
+"Site and punch list",
+"Warranties and documents",
+"All of it in one pass"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "hv-6",
+"cat": "hv",
+"q": "Payment sources check (old Amex, Venmo, Zelle, Chase, Amazon against QuickBooks): who does it?",
+"opts": [
+"Construction makes a checklist",
+"Folio checks it",
+"I'll do it myself"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "hv-7",
+"cat": "hv",
+"q": "Utilities switch-over to the owners: where does it stand?",
+"opts": [
+"Done",
+"Still needed",
+"Not sure, please check"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-1",
+"cat": "walk",
+"q": "Water Heater 1 serial photo for the site walk: who gets it?",
+"opts": [
+"Ethan on the next walk",
+"I'll ask the owner",
+"Skip it, both heaters are registered"
+],
+"src": "Site walk open items"
+},
+{
+"id": "walk-2",
+"cat": "walk",
+"q": "Roof leak above the kitchen ceiling: what next?",
+"opts": [
+"Keep monitoring",
+"Send the roofer",
+"Ask the owner if it still leaks"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-3",
+"cat": "walk",
+"q": "Backup sump and Moen water shutoff: still to install?",
+"opts": [
+"Yes, schedule it",
+"Already done",
+"Drop it"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-4",
+"cat": "walk",
+"q": "Gutter melts on the metal roof by the window (already prepped): when?",
+"opts": [
+"Before winter",
+"Next spring",
+"Drop it"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-5",
+"cat": "walk",
+"q": "Attic inspection and garage ceiling insulation: one visit or two?",
+"opts": [
+"One visit",
+"Separate visits",
+"Already done"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-6",
+"cat": "walk",
+"q": "Small punch items (master bath bidet, mud the master hallway, even the front shingles, cut the gym floor pipes): how to handle them?",
+"opts": [
+"One punch day, one crew",
+"Split them by trade",
+"Some are done, I'll note which"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "walk-7",
+"cat": "walk",
+"q": "Walk-out insulation: who confirms it?",
+"opts": [
+"Ethan on the walk",
+"The insulation sub",
+"Already confirmed"
+],
+"src": "Close-out tracker"
+},
+{
+"id": "docs-1",
+"cat": "docs",
+"q": "Superior Walls warranty certificate: no reply from Great Lakes Walls since Oct 11. Next step?",
+"opts": [
+"Follow up by email",
+"Call them",
+"Wait another week"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-2",
+"cat": "docs",
+"q": "Bryant HVAC registration (due Nov 5) needs the outdoor AC models and serials. How do we get them?",
+"opts": [
+"Ethan's site walk",
+"Ask the HVAC installer",
+"I'll get them"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-3",
+"cat": "docs",
+"q": "Seven Clopay garage door numbers for warranty registration: who collects them?",
+"opts": [
+"Ethan on the walk",
+"Ask the garage door installer",
+"Skip this registration"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-4",
+"cat": "docs",
+"q": "Pella warranty transfer to the owners: how?",
+"opts": [
+"Construction emails Pella",
+"I'll call Pella",
+"The owners handle it"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-5",
+"cat": "docs",
+"q": "Flat roof: the workmanship letter, membrane brand and warranty number are still missing. Who do we ask?",
+"opts": [
+"The flat roof contractor",
+"I'll find them",
+"Mark it To Be Confirmed"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-6",
+"cat": "docs",
+"q": "Pentair pool equipment: the 60-day clock starts at install. Who confirms the install date?",
+"opts": [
+"The pool installer",
+"The owner",
+"I'll note it myself"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-7",
+"cat": "docs",
+"q": "Napoleon fireplace registration rules: research them now?",
+"opts": [
+"Yes, now",
+"After the HVAC is done",
+"The owners handle it"
+],
+"src": "Open Items"
+},
+{
+"id": "docs-8",
+"cat": "docs",
+"q": "Builder license check: the state lookup site was down on Oct 14. What next?",
+"opts": [
+"Keep the Monday check running",
+"I'll check it myself",
+"Call the state office"
+],
+"src": "License watch"
+},
+{
+"id": "docs-9",
+"cat": "docs",
+"q": "Your personal builder license number isn't on file. Can you add it?",
+"opts": [
+"I'll add it in a note",
+"Look it up when the site is back",
+"Not sure I have one"
+],
+"src": "License watch"
+},
+{
+"id": "bids-1",
+"cat": "bids",
+"q": "Agnes Restaurant: the internal estimate came in well above the July proposal. What do you want?",
+"opts": [
+"Walk me through the gap",
+"Keep the July proposal as is",
+"Revise the proposal"
+],
+"src": "Agnes bid notes"
+},
+{
+"id": "bids-2",
+"cat": "bids",
+"q": "Agnes Restaurant: the owner's decision is expected mid-October. Follow up?",
+"opts": [
+"Wait for him",
+"Nudge him this week",
+"Draft a follow-up for me"
+],
+"src": "Agnes bid notes"
+},
+{
+"id": "bids-3",
+"cat": "bids",
+"q": "Agnes Restaurant: if we win it, keep the January 2027 start and June 1 opening target?",
+"opts": [
+"Yes, keep both",
+"Push the start later",
+"Decide after award"
+],
+"src": "Agnes bid notes"
+},
+{
+"id": "bids-4",
+"cat": "bids",
+"q": "webermanconstruction.com: point it at maxweberman.com?",
+"opts": [
+"Yes, redirect it",
+"Keep it a separate site",
+"Later"
+],
+"src": "Web tasks"
+},
+{
+"id": "bids-5",
+"cat": "bids",
+"q": "Vultr hosting (still billed monthly): what should happen?",
+"opts": [
+"Cancel it",
+"Keep it for now",
+"Check what's on it first"
+],
+"src": "Web tasks"
+},
+{
+"id": "bids-6",
+"cat": "bids",
+"q": "Website updates and new blog posts: who does them?",
+"opts": [
+"Ask Lenny",
+"Blog agent",
+"Construction drafts the content"
+],
+"src": "Web tasks"
+},
+{
+"id": "dash-1",
+"cat": "dash",
+"q": "Close-out Step Timeline: show every step or only the open ones?",
+"opts": [
+"Every step, done ones checked",
+"Only open steps"
+],
+"src": "Dashboard"
+},
+{
+"id": "dash-2",
+"cat": "dash",
+"q": "Apps in two groups: which group goes first?",
+"opts": [
+"Live apps (Home Guide, Site Walk)",
+"Finish decks and quizzes"
+],
+"src": "Dashboard"
+},
+{
+"id": "dash-3",
+"cat": "dash",
+"q": "Open Items list: default order?",
+"opts": [
+"By due date",
+"A to Z",
+"By trade"
+],
+"src": "Dashboard"
+},
+{
+"id": "dash-4",
+"cat": "dash",
+"q": "Number tiles near the top: keep all five?",
+"opts": [
+"Keep all five",
+"Only hours and next deadline",
+"Drop them"
+],
+"src": "Dashboard"
+},
+{
+"id": "dash-5",
+"cat": "dash",
+"q": "Recent Work: how many to show before See All?",
+"opts": [
+"5",
+"7",
+"10"
+],
+"src": "Dashboard"
+},
+{
+"id": "dash-6",
+"cat": "dash",
+"q": "Agnes Restaurant bid: give it its own section on the dashboard?",
+"opts": [
+"Yes, its own section",
+"Keep it in Open Items"
+],
+"src": "Dashboard"
+}
+]
+}
