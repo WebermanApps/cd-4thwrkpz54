@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 15:25 ICT",
+ "updated": "2026-10-14 20:10 ICT",
  "routines": [
   {
    "name": "Construction Morning Report",
@@ -7,13 +7,6 @@
    "schedule_plain": "Daily At 4:47 AM ICT",
    "status": "on",
    "last_run": "Today 4:56 AM"
-  },
-  {
-   "name": "Construction Evening Report",
-   "group": "Reports",
-   "schedule_plain": "Daily At 6:00 PM ICT",
-   "status": "on",
-   "last_run": "Yesterday 6:00 PM"
   },
   {
    "name": "Builder License Watch",
