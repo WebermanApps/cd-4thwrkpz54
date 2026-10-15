@@ -1,9 +1,9 @@
 {
   "agent": "construction",
-  "type": "Update",
-  "date": "2026-10-14",
-  "posted": "2026-10-14T18:02:50+07:00",
-  "morning": "05:00 ICT",
-  "summary": "Evening Report Oct 14: deck launcher, pinned decks, Routines, close-out timeline; Hidden Valley close-out unchanged",
-  "note": "Only daily report is the Morning Report, due 05:00 ICT"
+  "type": "Morning Report",
+  "date": "2026-10-15",
+  "posted": "2026-10-15T07:30:00+07:00",
+  "due_by": "05:00 ICT",
+  "late": true,
+  "summary": "Morning Report Oct 15 (late, usage ran out overnight)"
 }
