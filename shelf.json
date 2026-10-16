@@ -10,7 +10,8 @@
    "topic": "construction-closeout",
    "tag": "Close-out",
    "added": "2026-10-14T19:58:15+07:00",
-   "blurb": "Hidden Valley close-out, site walk and punch, bids"
+   "blurb": "Hidden Valley close-out, site walk and punch, bids",
+   "progress_key": "construction-deck-ans:Close-out Calls Deck"
   },
   {
    "id": "construction-finish-questions",
@@ -20,7 +21,8 @@
    "topic": "construction-finishes",
    "tag": "Finishes",
    "added": "2026-10-14T19:59:15+07:00",
-   "blurb": "Open finish, fixture and tile calls"
+   "blurb": "Open finish, fixture and tile calls",
+   "progress_key": "construction-deck-ans:Finish Questions Deck"
   },
   {
    "id": "construction-warranties-docs",
@@ -30,7 +32,8 @@
    "topic": "construction-docs",
    "tag": "Warranties",
    "added": "2026-10-14T20:00:15+07:00",
-   "blurb": "Registrations, licenses, shutoff locations, dashboard"
+   "blurb": "Registrations, licenses, shutoff locations, dashboard",
+   "progress_key": "construction-deck-ans:Warranties & Docs Deck"
   },
   {
    "id": "construction-bid-and-schedule-screens-deck",
