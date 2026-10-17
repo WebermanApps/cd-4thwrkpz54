@@ -1,6 +1,6 @@
 {
  "agent": "construction",
- "updated": "2026-10-14T20:02:15+07:00",
+ "updated": "2026-10-17T08:05:35+07:00",
  "decks": [
   {
    "id": "construction-closeout-calls",
@@ -36,6 +36,36 @@
    "progress_key": "construction-deck-ans:Warranties & Docs Deck"
   },
   {
+   "id": "construction-bid-and-schedule-screens-deck-bid-compare-screens",
+   "name": "Bid Compare Screens",
+   "url": "https://webermanapps.github.io/style-swipe/construction-bid-and-schedule-screens-deck-bid-compare-screens-ce0p3a/",
+   "total": 10,
+   "topic": "construction",
+   "source": "/workspace/ops/construction/dashboard/bank-bids-schedule.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Bids",
+   "answered": 0,
+   "split_from": "construction-bid-and-schedule-screens-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-bid-and-schedule-screens-deck-build-schedule-screens",
+   "name": "Build Schedule Screens",
+   "url": "https://webermanapps.github.io/style-swipe/construction-bid-and-schedule-screens-deck-build-schedule-screens-w2kpty/",
+   "total": 10,
+   "topic": "construction",
+   "source": "/workspace/ops/construction/dashboard/bank-bids-schedule.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Bids",
+   "answered": 0,
+   "split_from": "construction-bid-and-schedule-screens-deck",
+   "blurb": "10 cards, ready now"
+  }
+ ],
+ "pinned": [],
+ "done": [],
+ "unlisted": [
+  {
    "id": "construction-bid-and-schedule-screens-deck",
    "name": "Bid And Schedule Screens Deck",
    "url": "https://webermanapps.github.io/style-swipe/construction-bid-and-schedule-screens-deck-au46mv/",
@@ -44,9 +74,17 @@
    "source": "/workspace/ops/construction/dashboard/bank-bids-schedule.json",
    "added": "2026-10-14T20:01:49+07:00",
    "tag": "Bids",
-   "blurb": "20 cards, ready now"
+   "blurb": "20 cards, ready now",
+   "unlisted_at": "2026-10-17T08:05:35+07:00",
+   "split_into": [
+    "construction-bid-and-schedule-screens-deck-bid-compare-screens",
+    "construction-bid-and-schedule-screens-deck-build-schedule-screens"
+   ],
+   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   }
  ],
- "pinned": [],
- "done": []
+ "cap": 10,
+ "cap_note": "R86 (Max Oct 17 2026 07:50 ICT): every shelf shows up to 10 decks (pinned included), 10 picks per deck; in-progress first, done last (kit deck-shelf.js sort)",
+ "held": [],
+ "queued": []
 }
