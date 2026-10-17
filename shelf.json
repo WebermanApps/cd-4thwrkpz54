@@ -1,6 +1,6 @@
 {
  "agent": "construction",
- "updated": "2026-10-17T08:05:35+07:00",
+ "updated": "2026-10-17T09:55:08+07:00",
  "decks": [
   {
    "id": "construction-closeout-calls",
@@ -59,6 +59,56 @@
    "tag": "Bids",
    "answered": 0,
    "split_from": "construction-bid-and-schedule-screens-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-from-the-feed-deck",
+   "name": "From The Feed Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-from-the-feed-deck-6a629h/",
+   "total": 10,
+   "topic": "construction",
+   "added": "2026-10-17T09:45:00+07:00",
+   "tag": "From The Feed",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-home-guide-deck",
+   "name": "Home Guide Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-home-guide-deck-21adin/",
+   "total": 10,
+   "topic": "construction",
+   "added": "2026-10-17T09:45:13+07:00",
+   "tag": "Home Guide",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-home-guide-and-site-walk-deck",
+   "name": "Home Guide And Site Walk Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-home-guide-and-site-walk-deck-wcnsu2/",
+   "total": 10,
+   "topic": "construction",
+   "added": "2026-10-17T09:45:27+07:00",
+   "tag": "Home Guide",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-site-walk-and-finish-questions-deck",
+   "name": "Site Walk And Finish Questions Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-site-walk-and-finish-questions-deck-rm04rq/",
+   "total": 10,
+   "topic": "construction",
+   "added": "2026-10-17T09:45:41+07:00",
+   "tag": "Site Walk",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "construction-finish-questions-and-bids-deck",
+   "name": "Finish Questions And Bids Deck",
+   "url": "https://webermanapps.github.io/style-swipe/construction-finish-questions-and-bids-deck-vm1yw5/",
+   "total": 10,
+   "topic": "construction",
+   "added": "2026-10-17T09:45:55+07:00",
+   "tag": "Finish Questions",
    "blurb": "10 cards, ready now"
   }
  ],
