@@ -1,9 +1,9 @@
 {
   "agent": "construction",
   "type": "Morning Report",
-  "date": "2026-10-15",
-  "posted": "2026-10-15T07:30:00+07:00",
-  "due_by": "05:00 ICT",
-  "late": true,
-  "summary": "Morning Report Oct 15 (late, usage ran out overnight)"
+  "date": "",
+  "posted": "",
+  "due_by": "",
+  "late": false,
+  "summary": ""
 }
